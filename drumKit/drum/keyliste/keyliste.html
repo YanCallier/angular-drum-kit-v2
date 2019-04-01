@@ -1,0 +1,9 @@
+<div>{{$ctrl.name}}</div>
+
+<div class = "key-container">
+    <key ng-repeat = "key in $ctrl.keysOut track by $index" one-key = "key" alert-key-down="$ctrl.alertKeyDown" ></key>
+</div>
+
+<div>{{$ctrl.state}}</div>
+
+<hr>
